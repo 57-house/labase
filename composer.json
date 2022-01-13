@@ -1,0 +1,17 @@
+{
+    "name": "donald/php",
+    "authors": [
+        {
+            "name": "57-house",
+            "email": "njiegnamnjuhdonald@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Router\\" : "web/",
+            "App\\" : "app/",
+            "Database\\" : "database/"
+        }
+    },
+    "require": {}
+}
